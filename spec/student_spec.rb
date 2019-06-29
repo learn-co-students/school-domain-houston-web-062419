@@ -32,6 +32,7 @@ describe 'School' do
 
       expect(@school.roster).to eq({9 => ["Homer Simpson"], 10 => ["Jeff Baird", "Avi Flombaum"], 7 => ["Blake Johnson"]})
     end
+    
   end
 
   describe '#grade' do
